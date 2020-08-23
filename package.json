@@ -1,0 +1,23 @@
+{
+  "name": "c19widget",
+  "version": "1.0.0",
+  "description": "covid19 widget",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabadunk/C19Widget.git"
+  },
+  "author": "rabadunk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rabadunk/C19Widget/issues"
+  },
+  "homepage": "https://github.com/Rabadunk/C19Widget#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase": "^7.19.0"
+  }
+}
