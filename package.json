@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/Rabadunk/C19Widget#readme",
   "dependencies": {
+    "canvas": "^2.6.1",
+    "chart.js": "^2.9.3",
     "dotenv": "^8.2.0",
-    "firebase": "^7.19.0"
+    "firebase": "^7.19.0",
+    "vega": "^5.14.0"
   }
 }
