@@ -3,14 +3,14 @@ require('firebase/database');
 require('dotenv').config();
 
 let app = firebase.initializeApp({
-    apiKey: process.env.REACT_APP_FIREBASE_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    databaseURL: process.env.REACT_APP_DATABASE_URL,
-    projectId: process.env.REACT_APP_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_MESSAGE_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_ID,
-    measurementId: process.env.REACT_APP_MEASUREMENT_ID
+    apiKey: process.env.FIREBASE_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    databaseURL: process.env.DATABASE_URL,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGE_SENDER_ID,
+    appId: process.env.FIREBASE_ID,
+    measurementId: process.env.MEASUREMENT_ID
 });
 
 let database = firebase.database(app);
