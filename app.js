@@ -25,7 +25,8 @@ var server = express();
 var path = require('path');
 
 server.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.setHeader('Content-Type', 'image/svg+xml');
+    res.sendFile(__dirname + '/index.svg');
 });
 
 server.listen(8080);
