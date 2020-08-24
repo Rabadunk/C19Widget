@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" height="100" width="100">
+
+    <style>
+        .bar {fill: #a9a9a9;
+            opacity: 0.6;
+        }
+    </style>
+
+    
+    <rect class="bar" x="20" y="60" width="80" height="120"/>
+    <rect class="bar" x="110" y="10" width="80" height="170"/>
+    <rect class="bar" x="200" y="160" width="80" height="20"/>
+    Sorry, your browser does not support inline SVG.
+</svg>
