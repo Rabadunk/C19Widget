@@ -29,7 +29,7 @@ console.log(database.ref("Locations"));
 
 var express = require('express');
 var server = express();
-var path = require('path');
+
 
 server.get('/', function(req, res) {
     res.setHeader('Content-Type', 'image/svg+xml');
