@@ -31,9 +31,7 @@ var express = require('express');
 var server = express();
 
 
-server.get('/', function(req, res) {
+module.exports = server.get('/', function(req, res) {
     res.setHeader('Content-Type', 'image/svg+xml');
     res.status(200).send(buildChart());
 });
-
-server.listen(8080);
