@@ -21,7 +21,7 @@ async function buildChart() {
     let minY = 30;
     let maxHeight = 120;
     const d3n = new D3Node({styles:'.bar {fill: #a9a9a9;opacity: 0.6;}.title{font-family:helvetica;font-size:13px;}.label{font-family:helvetica;font-size:8px;}'});
-    let svgChart = d3n.createSVG(460, 300);
+    let svgChart = d3n.createSVG(460, 170);
     svgChart.append('text').text('Cases by DHB').attr('class', 'title').attr('x', 176).attr('y', 20);
     await database.once('value').then(async (value) => {
         data = value.val();
